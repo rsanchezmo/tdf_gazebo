@@ -3,8 +3,16 @@ Gazebo package for simulation of search and rescue robots in tdf mountains base 
 
 ![tdf_world](img/world.png)
 
-## Launch the world
+## Build the world in your catkin workspace
 ```
+source /opt/ros/melodic/setup.bash
+catkin_make
+```
+
+## Launch the world in your catkin workspace
+```
+source /opt/ros/melodic/setup.bash
+source devel/setup.bash
 roslaunch tdf_gazebo start.launch
 ```
 
