@@ -39,6 +39,11 @@ The world contains multiple environments to design and test search and rescue ta
 
 ![tdf_world](img/forest.png)
 
+**Leafy forest**
+This section of the map is useful for checking the person detection capability of the system through the trees' leaves.
+
+![tdf_world](img/leafy.png)
+
 ## Models
 There are also included animal models to integrate in the world such as cows, goats and wolves. 
 
