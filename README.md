@@ -1,5 +1,5 @@
 # tdf-gazebo
-Gazebo package for simulation of search and rescue robots in tdf mountains.
+Gazebo package for simulation of search and rescue robots in tdf mountains base on a heightmap.
 
 ![tdf_world](img/world.png)
 
@@ -22,3 +22,7 @@ The world contains multiple environments to design and test search and rescue ta
 **Forest**
 
 ![tdf_world](img/forest.png)
+
+## Models
+There are also included animal models to integrate in the world such as cows, goats and wolves. 
+
