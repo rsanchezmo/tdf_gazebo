@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <model name="wolf_tdf">
+    <static>true</static>
+    <link name="body">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://wolf_tdf/meshes/wolf.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh><uri>model://wolf_tdf/meshes/wolf.dae</uri></mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
