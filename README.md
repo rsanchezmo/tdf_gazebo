@@ -1,9 +1,17 @@
-# TDF GAZEBO
+# tdf_gazebo
 Gazebo package for simulation of search and rescue robots in tdf mountains based on a heightmap image.
 
 ![tdf_world](img/world.png)
 
+## Clone the repository and import the ROS packages into your catkin workspace
+Clone the repository anywhere and do the following to include the packages.
+```
+git clone https://github.com/Ingenia-SE/TDF-SARUS.git
+mv TDF-SARUS/TDF-Sim/* <path_to_your_catkinws>/src/
+```
+
 ## Build the world in your catkin workspace
+Head onto your catkin workspace folder and do the following:
 ```
 source /opt/ros/melodic/setup.bash
 catkin_make
