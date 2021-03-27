@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tdf_gazebo</name>
+  <version>0.5.3</version>
+  <description>the drone face gazebo simulation</description>
+  <maintainer email="tdf@tdf.com">TDF team</maintainer>
+  <author email="tdf@tdf.com">TDF team</author>
+  <license>Unknown</license>
+
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <!-- Export worlds and models developed by TDF to gazebo_path. -->
+  <export>
+      <gazebo_ros gazebo_media_path="${prefix}/worlds"/>
+      <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+
+</package>
