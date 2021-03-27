@@ -1,4 +1,4 @@
-# tdf_gazebo
+# TDF GAZEBO
 Gazebo package for simulation of search and rescue robots in tdf mountains base on a heightmap.
 
 ![tdf_world](img/world.png)
