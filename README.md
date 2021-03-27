@@ -34,3 +34,4 @@ The world contains multiple environments to design and test search and rescue ta
 ## Models
 There are also included animal models to integrate in the world such as cows, goats and wolves. 
 
+![tdf_world](img/animals.png)
